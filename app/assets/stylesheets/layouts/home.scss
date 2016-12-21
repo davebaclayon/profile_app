@@ -1,17 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Dekko');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
-#name{
-	font-size: 2.5em;	
+#hi{
+	font-size: 15em;
+	text-align: center;
+	font-family: 'Dekko', cursive;
 }
 
-.smallDetails{
-	margin-top: -10px;
+#intro{
+	font-size: 3em;
+	font-family: 'Dekko', cursive;
+	text-align:center;
 }
 
-.buttonView{
-	width: 95%;
-	height:35px; 
+.homeBackground{
+	background-color: violet;
+}
+.homeBackground2{
+	background-color: pink;
+}
+#smile{
+	font-size: 7em;
+	margin-top:140px;
+	font-family: 'Great Vibes', cursive;
+	color:white;
 }
 
-#spacing{
-	height:25px;
+#buttonView{
+	font: 2em Arial;
+	font-family: 'Dekko';
+  	text-decoration: none;
+ 	background-color: skyblue;
+  	color: black;
+ 	padding: 15px 100px 15px 100px;
+ 	border-top: 1px solid #CCCCCC;
+  	border-right: 1px solid #333333;
+ 	border-bottom: 1px solid #333333;
+  	border-left: 1px solid #CCCCCC;
+  	height: 50px;
+  	width: 120px;
 }

@@ -1,50 +1,54 @@
 <% provide(:title, "Contact") %>
 
-<br><br>
-<br><br>
+<div id="contactBackground">
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
 
-<div class="row">
-	<div class="col-md-3">
-		<div class="contact">
-			<a href="https://www.facebook.com/dave.baclayon">
-				<img onmouseover="document.getElementById('viewProfile').style.display = 'block';"
-					 onmouseout="document.getElementById('viewProfile').style.display = 'none';" 
-				src="assets/fbicon.png" height="150" width="150"/>
-			</a>
-		</div>
-
-	</div>
-	<div class="col-md-3">
-		<div class="contact">
-			<a href="#">
-				<img onmouseover="document.getElementById('gmail').style.display = 'block';"
-					 onmouseout="document.getElementById('gmail').style.display = 'none';"
-				 src="assets/gmailicon.jpg" height="150" width="150"/>
-			</a><br><br>
-			<p id="gmail"> <i> davebaclayon@gmail.com </i></p>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="contact">
+				<a href="https://www.facebook.com/dave.baclayon">
+					<img class="bigIcon" onmouseover="document.getElementById('viewProfile').style.display = 'block';"
+						 onmouseout="document.getElementById('viewProfile').style.display = 'none';" 
+					src="assets/fbicon.png" height="150" width="150"/>
+				</a>
+			</div>
 
 		</div>
-	</div>
-	<div class="col-md-3">
-		<div class="contact">
-			<a href="https://ph.linkedin.com/in/christian-dave-baclayon-b39710115">
-				<img onmouseover="document.getElementById('viewProfile').style.display = 'block';"
-					 onmouseout="document.getElementById('viewProfile').style.display = 'none';" 
-				src="assets/inicon.png" height="150" width="150"/>
-			</a>
+		<div class="col-md-3">
+			<div class="contact">
+				<a href="#">
+					<img class="bigIcon" onmouseover="document.getElementById('gmail').style.display = 'block';"
+						 onmouseout="document.getElementById('gmail').style.display = 'none';"
+					 src="assets/gmail.png" height="150" width="150"/>
+				</a><br><br>
+				<p id="gmail"> <i> davebaclayon@gmail.com </i></p>
+
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="contact">
+				<a href="https://ph.linkedin.com/in/christian-dave-baclayon-b39710115">
+					<img class="bigIcon" onmouseover="document.getElementById('viewProfile').style.display = 'block';"
+						 onmouseout="document.getElementById('viewProfile').style.display = 'none';" 
+					src="assets/inicon.png" height="150" width="150"/>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="contact">
+				<a href="#">
+					<img class="bigIcon" onmouseover="document.getElementById('ymail').style.display = 'block';"
+						 onmouseout="document.getElementById('ymail').style.display = 'none';" 
+					src="assets/yahoo.ico" height="155" width="155"/>
+				</a><br><br>
+				<p id="ymail"> <i> davebaclayon@yahoo.com </i></p>
+			</div>
+		</div>
+		<div class="row">
+			<center> <h1 id="viewProfile"> Click the icon to view my profile! </h1> </center>	
 		</div>
 	</div>
-	<div class="col-md-3">
-		<div class="contact">
-			<a href="#">
-				<img onmouseover="document.getElementById('ymail').style.display = 'block';"
-					 onmouseout="document.getElementById('ymail').style.display = 'none';" 
-				src="assets/yahoo.ico" height="155" width="155"/>
-			</a><br><br>
-			<p id="ymail"> <i> davebaclayon@yahoo.com </i></p>
-		</div>
-	</div>
-
-	<center> <h1 id="viewProfile"> Click the link to view my profile! </h1> </center>
-
 </div>

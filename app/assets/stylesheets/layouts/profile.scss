@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.section{
+	height:850px;
+	width: 1300px;
+	margin-right: -10px;
+}
+#education{
+	background-image: url(/assets/education.gif);
+	background-repeat: no-repeat;
+	background-size: 1300px 1000px;
+	height: 1000px;
+}
+
+#affiliation{
+	background-image: url(/assets/volunteer.png);
+	background-repeat: no-repeat;
+	background-size: 1300px 1000px;
+	height: 1000px;
+}
+
+#awards{
+	background-image: url(/assets/awards.jpg);
+	background-repeat: no-repeat;
+	background-size: 1300px 850px;
+}
+
+#personal{
+	background-image: url(/assets/personalBackground.jpg);
+}
+
+.schoolText{
+	font-size: 3em;
+	color: #540770;		
+	font-family: 'Pacifico', cursive;
+	margin-left: 50px;
+}
+
+.courseText{
+	margin-left: 55px;
+	font-size:1.5em;
+	margin-top: -5px;
+	font-family: 'Muli', sans-serif;
+	color: #443266;
+}
+
+.headings{
+	text-align: center;
+	font-size: 7em;
+	font-family: 'Lobster', cursive;
+	margin-bottom: -30px;
+	color: #6cc1a5;
+	
+}
+
+
+#myAwards{
+	color: #4e4f48;
+}
+
+#myProfile{
+	color:white;	
+}
+
+#myAffiliations{
+	color: #0c7f0a;
+}
+
+#myEducation{
+	color: #4242f4;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:200');
+.personalDetails{
+	color:white;
+	font-size: 1.5em;
+	margin-left: 40px;
+	
+}
+
+.personalAnswers{
+	font-family: 'Nunito', sans-serif;
+	margin-left: -20px;
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+.otherDetails{
+	color:white;
+	font-size: 1.5em;
+}
+
+.otherAnswers{
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	font-size: 1.5em;
+}
+
+#pathwaysText{
+	margin-left: 10px;
+	font-size: 4em;
+}
+.pathwaysClass{
+	margin-left: 10px;
+	font-size: 1.5em;
+
+}
+.whiteContainer{
+	height: 200px;
+	width: 470px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+#datalogicsContainer{
+	height: 250px;
+}
+#affiliationContainer{
+	width:100%;
+	height: 150px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+#educationContainer{
+	width:100%;
+	height: 150px;
+	background-color: rgba(255,255,255,0.6);
+}
+#awardContainer{
+	width:100%;
+	height: 150px;
+	background-color: rgba(125,132,142,0.2);
+}

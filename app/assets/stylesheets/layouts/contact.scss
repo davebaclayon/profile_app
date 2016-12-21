@@ -1,11 +1,9 @@
 .contact{
 	height: 300px;
-	background-color: white;
-
 	text-align: center;
 }
 
-img:hover {
+.bigIcon:hover {
     height:200px;
     width: 200px;
     margin-top: -10px;
@@ -23,6 +21,13 @@ img:hover {
 	text-align: center;
 }
 
-h1{
+#viewProfile{
 	display:none;
+	font-family: 'Dekko', cursive;
+}
+
+#contactBackground{
+	background-image: url(/assets/contactbackground.png);
+	margin-bottom: 0px;
+	height:550px;
 }

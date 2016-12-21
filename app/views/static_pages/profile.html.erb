@@ -1,2 +1,181 @@
-<h1>StaticPages#profile</h1>
-<p>Find me in app/views/static_pages/profile.html.erb</p>
+<% provide(:title, "Profile") %>
+
+<br><br>
+<div class = "row section" id="personal">
+	<div class="row">
+		<div class="col-md-12">
+			<p class="headings" id="myProfile"> My Profile </p>
+		</div>
+	</div>
+	<br><br><br><br>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-2">
+			<img src="/assets/formalFace.png" />
+		</div>
+		<br><br>
+		<div id="profileBackground">
+			<div class="col-md-2 personalDetails">
+				<p> Name: </p>
+				<p> Address: </p>
+				<p> Contact Number: </p>
+				<p> Birthday: <p>
+				<p> Age: </p>
+				<p> Father's Name: </p>
+				<p> Mother's Name: </p>
+			</div>
+			<div class="col-md-4 personalDetails personalAnswers">
+				<b><p> Christian Dave B. Baclayon</p></b>
+				<p> Sewage, Pusok, Lapu-Lapu City, Cebu </p>
+				<p> 09255522202 </p>
+				<p> March 16, 1997 <p>
+				<p> 19 years old </p>
+				<p> Restituto A. Baclayon </p>
+				<p> Ma. Carmen B. Baclayon </p>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-2 otherDetails">
+			<p> Programming Languages: </p>
+			<p> Developer Tools: </p> 
+			<p> Databases: </p>
+			<br>
+			<p> On-the-Job Training: </p>
+		</div>
+		<div class="col-md-6 otherAnswers">
+			<p> C, C++, Java, Python, Ruby <i>(soon)</i> </p>
+			<p> Netbeans, Eclipse, Enthought Canopy, Git, Sublime, Notepad++ </p> 
+			<p> MySQL, Datastore <i>(Google) </i></p>
+			<br>
+			<p> Lexmark Research and Development Corporation <br>
+				<i>Embedded Web Servers Intern</i>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+<div class = "row section" id="education">
+	<br><br>
+	<div class="row">
+		<div class="col-md-12" id="educationContainer">
+			<p class="headings" id="myEducation"> Education </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 col-md-offset-1">
+			<br><br>
+			<img src="/assets/uscicon.png" />
+		</div>
+		<div class="col-md-8">
+			<br><br><br>
+			<p class="schoolText"> University of San Carlos </p>
+			<p class="courseText"> Bachelor of Science in Computer Science </p>
+			<p class="courseText"> A.Y. 2013-2017 </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 col-md-offset-1">
+			<br><br>
+			<img style="margin-left: 10px;" src="/assets/ccnshs.png" height="190px"/>
+		</div>
+		<div class="col-md-8">
+			<br><br><br>
+			<p class="schoolText"> Cebu City National Science High School </p>
+			<p class="courseText"> A.Y. 2009-2013 </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 col-md-offset-1">
+			<br><br>
+			<img style="margin-left: 10px;" src="/assets/llcces.png" height="190px"/>
+		</div>
+		<div class="col-md-8">
+			<br><br><br><br>
+			<p class="schoolText">  Lapu-Lapu City Central Elementary School </p>
+			<p class="courseText"> A.Y. 2003-2009 </p>
+		</div>
+	</div>
+</div>
+
+<div class = "row section" id="affiliation">
+	<br><br><br>
+	<div class="row">
+		<div class="col-md-12" id="affiliationContainer">
+			<p class="headings" id="myAffiliations"> Affiliations </p>
+		</div>
+	</div>
+	<br><br><br><br><br>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-2">
+			<img src="/assets/pathways.jpg" height="200px" width="400px"/>
+		</div>
+		<div class="col-md-6 col-md-offset-1 whiteContainer">
+			<p class="schoolText" id="pathwaysText"> USC Pathways </p>
+			<p class="courseText pathwaysClass"> Student Adviser, A.Y. 2016-2017 </p>
+			<p class="courseText pathwaysClass"> President, A.Y. 2015-2016 </p>
+			<p class="courseText pathwaysClass"> Volunteeer, A.Y. 2014-2015 </p>
+
+		</div>
+	</div>
+	<br><br><br><br>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-2">
+			<img src="/assets/datalogics.jpg" height="250px" width="400px"/>
+		</div>
+		<div class="col-md-6 col-md-offset-1 whiteContainer" id="datalogicsContainer">
+			<p class="schoolText" id="pathwaysText"> Datalogics Society </p>
+			<br>
+			<p class="courseText pathwaysClass"> Block Representative, A.Y. 2016-2017 </p>
+			<p class="courseText pathwaysClass"> USC All Access Volunteer, A.Y. 2015-2016 </p>
+			<p class="courseText pathwaysClass"> Secretary, A.Y. 2014-2015 </p>
+			<p class="courseText pathwaysClass"> Block Representative, A.Y. 2013-2014 </p>
+
+		</div>
+	</div>
+</div>
+
+
+
+<div class = "row section" id="awards">
+	<br><br><br>
+	<div class="row">
+		<div class="col-md-12" id="awardContainer">
+			<p class="headings" id="myAwards"> Awards </p>
+		</div>
+	</div>
+	<br><br><br><br><br>
+	<div class="row">
+		<div class="col-md-12">
+			<center>
+				<img src="/assets/settings.png" height="250px" width="250px"/>
+				<br><br><br>
+				<p id="awardMessage"> Well, this is embarassing.</p>
+				<p id="awardMessage2"> <i>We are undergoing construction for this site. Please be patient and do visit this page again! </i></p>
+			</center>
+		</div>
+	</div>
+</div>
+
+<style>
+	#awardMessage{
+		font-size: 5em;
+		text-align: center;
+		font-family: 'Dekko', cursive;
+		color:white;
+	}
+
+	#awardMessage2{
+		margin-left: 100px;
+		margin-right: 100px;
+		font-size: 2em;
+		text-align: center;
+		font-family: 'Dekko', cursive;
+		color:#1dd120;
+		height: 40px;
+		width: 80%;
+		background-color: rgba(0,0,0,0.5);
+	}
+</style>
