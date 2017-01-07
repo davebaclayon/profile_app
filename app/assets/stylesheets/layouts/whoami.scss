@@ -1,0 +1,29 @@
+#whoami{
+	font-size: 15em;
+	text-align: center;
+	font-family: 'Dekko', cursive;
+	color: #80bfff;
+}
+
+.whoamiBox{
+	height:2100px;
+	width:1300px;
+	background-image: url(/assets/whoamibackground.png);
+	background-repeat: no-repeat;
+	background-size: 1300px 2100px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+.whoamiFont{
+	font-family: 'Handlee', cursive;
+	font-size: 2em;
+	color: black;
+	padding-right: 30px;
+	padding-left: 30px;	
+	padding-top: 15px;
+	margin-bottom: 50px;
+	background-color: rgba(255,255,255,0.6);
+	text-align: justify;
+}
